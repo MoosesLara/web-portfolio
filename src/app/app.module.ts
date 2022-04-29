@@ -6,13 +6,23 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar/navbar.component';
 import { ButtonOneComponent } from './components/buttons/button-one/button-one.component';
 import { ButtonTwoComponent } from './components/buttons/button-two/button-two.component';
+import { MainSectionComponent } from './components/home/main-section/main-section.component';
+import { AboutSectionComponent } from './components/home/about-section/about-section.component';
+import { SkillsSectionComponent } from './components/home/skills-section/skills-section.component';
+import { CardSkillsComponent } from './components/cards/card-skills/card-skills.component';
+import { FooterComponent } from './components/footer/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ButtonOneComponent,
-    ButtonTwoComponent
+    ButtonTwoComponent,
+    MainSectionComponent,
+    AboutSectionComponent,
+    SkillsSectionComponent,
+    CardSkillsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
