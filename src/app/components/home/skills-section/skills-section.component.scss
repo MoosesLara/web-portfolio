@@ -20,6 +20,15 @@
     font-family: "Lato", sans-serif;
 }
 
+.boxes{
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+}
+
+.boxes:hover{
+    box-shadow: 10px 10px 10px 5px rgba(255, 255, 255, 0.1);
+}
+
 .skills__box{
     width: 100%;
     display: flex;
