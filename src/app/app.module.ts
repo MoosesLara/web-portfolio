@@ -11,6 +11,7 @@ import { AboutSectionComponent } from './components/home/about-section/about-sec
 import { SkillsSectionComponent } from './components/home/skills-section/skills-section.component';
 import { CardSkillsComponent } from './components/cards/card-skills/card-skills.component';
 import { FooterComponent } from './components/footer/footer/footer.component';
+import { ProjectSectionComponent } from './components/home/project-section/project-section.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer/footer.component';
     AboutSectionComponent,
     SkillsSectionComponent,
     CardSkillsComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectSectionComponent
   ],
   imports: [
     BrowserModule,

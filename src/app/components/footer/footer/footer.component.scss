@@ -3,7 +3,38 @@
 }
 
 .footer__box-one{
-    padding: 100px 0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.box__one{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.box__one ul{
+    margin-right: 100px;
+}
+
+.box__one ul h3{
+    font-size: 16px;
+    color: #f9b53a;
+    font-family: "Lato", sans-serif;
+}
+
+.box__one ul li{
+    list-style: none;
+}
+
+.box__one ul li a{
+    font-size: 16px;
+    color: #dfe0e3;
+    line-height: 40px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    
 }
 
 .footer__box-two{
